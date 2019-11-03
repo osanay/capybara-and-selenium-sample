@@ -5,7 +5,6 @@ ENV LANG C.UTF-8
 RUN apt-get update && \
     apt-get install --quiet --yes --no-install-recommends \
     build-essential \
-    chromedriver \
     fonts-noto-cjk
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 

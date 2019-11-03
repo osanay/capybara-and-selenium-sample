@@ -2,6 +2,7 @@
 
 require 'capybara/rspec'
 require 'selenium-webdriver'
+require 'webdrivers'
 
 Capybara.configure do |config|
   config.default_driver = :selenium
